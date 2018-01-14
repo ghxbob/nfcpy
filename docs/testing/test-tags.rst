@@ -106,7 +106,7 @@ TT3_READ_BI_001
    $ ./tagtool.py format tt3 --len 58 --rw 0 --nbr 0 --nbw 0
 
 * Nbr = 0, Nbw = 0, RWFlag = 0x00
-* Identify as „Corrupted data“ (invalid attribute information block)
+* An error happend in _read_ndef_data of nfc.tag.tt3.py('nbr' argument in for ... range must not zero)
 
 TT3_READ_BI_002
 ^^^^^^^^^^^^^^^
