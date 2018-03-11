@@ -664,7 +664,7 @@ class Device(device.Device):
 
     def listen_ttb(self, target, timeout):
         """Listen as Type B Target is not supported."""
-        message = "{device} does not support listen as Type A Target"
+        message = "{device} does not support listen as Type B Target"
         raise nfc.clf.UnsupportedTargetError(message.format(device=self))
 
     def listen_ttf(self, target, timeout):
